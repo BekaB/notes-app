@@ -1,4 +1,19 @@
-const fs = require('fs')
+const message = require('./notes.js')
 
-// fs.writeFileSync('notes.txt','this file was created by node.js')
-fs.appendFileSync('notes.txt',' love is on the airs')
+console.log(message())
+
+
+
+
+
+
+
+
+
+
+
+// const add = require('./utils.js')
+
+// const sum = add(9,5)
+
+// console.log(sum)
