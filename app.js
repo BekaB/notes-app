@@ -1,6 +1,9 @@
+const validator = require('validator')
 const message = require('./notes.js')
 
 console.log(message())
+
+console.log(validator.isEmail('ehak@gmail.com'))
 
 
 
